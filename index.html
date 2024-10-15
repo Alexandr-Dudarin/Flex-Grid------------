@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <form method="post" action="/login">
+        <div class="registr">
+      <h2 class="registr-title">Для регистрации заполните поля ниже:</h2>
+
+      <label class="registr-label"></label>>
+        <span class="registr-text">Введите логин:</span>
+
+        <input
+          type="text"
+          name="login"
+          placeholder="Ваш никнейм"
+          minlength="5"
+          maxlength="10"
+        />
+      </label>
+
+      <label class="registr-label">
+        <span class="registr-text">Введите email:</span>
+
+        <input
+          type="email"
+          name="login"
+          placeholder="Ваша почта"
+          minlength="5"
+        />
+      </label>
+
+      <label class="registr-label">
+        <span class="registr-text">Пароль:</span>
+
+        <input
+          type="password"
+          name="password"
+          placeholder="Введите пароль"
+          minlength="5"
+          maxlength="10"
+        />
+      </label>
+
+      <label class="registr-label">
+        <span class="registr-text">Подтвердите пароль:</span>
+
+        <input
+          type="password"
+          name="password"
+          placeholder="Введите пароль ещё раз"
+          minlength="5"
+          maxlength="10"
+        />
+      </label>
+
+      <label class="registr-label">
+        <span class="registr-text">Дата рождения:</span>
+
+        <input type="date" name="date" placeholder="date" />
+      </label>
+
+      <label class="registr-label">
+        <span class="registr-text">Загрузите ваш аватар:</span>
+
+        <input type="file" name="avatar" placeholder="date" />
+      </label>
+
+      <button type="submit">Зарегестрироваться</button>
+    </div>
+    </form>
+  </body>
+</html>

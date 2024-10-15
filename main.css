@@ -1,0 +1,40 @@
+:root {
+    --registr-margin: 20px;
+    --border-color: brown;
+    --background-color: blueviolet;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+  }
+
+  button {
+    background: rgb(35, 73, 126);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.7s;
+    margin: 10px 0 0 0;
+  }
+  
+  button:hover {
+    background: rgb(89, 5, 126);
+  }
+
+  input {
+    display: block;
+    margin: 10px 0 10px 0;
+  }
+
+  span {
+    background-color: rgb(245, 130, 9);
+    color: rgb(18, 216, 226);
+  }
