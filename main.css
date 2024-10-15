@@ -22,7 +22,7 @@ body {
     border-radius: 8px;
     font-size: 16px;
     transition: 0.7s;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 20px;
   }
   
   button:hover {
@@ -36,7 +36,9 @@ body {
 
   .registr {
     border: 3px solid var(--border-color);
-    margin: var(--registr-margin)
+    margin: var(--registr-margin);
+    display: flex;
+    flex-direction: column;
   }
 
   .registr {
@@ -57,4 +59,8 @@ body {
 
   .registr-title {
     color: yellow;
+  }
+
+  .registr-block{
+    border: 3px solid var(--border-color);
   }

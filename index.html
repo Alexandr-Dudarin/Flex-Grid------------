@@ -16,6 +16,7 @@
         <div class="registr">
       <h2 class="registr-title">Для регистрации заполните поля ниже:</h2>
 
+      <div class="registr-block">
       <label class="registr-label"></label>
         <span class="registr-text">Введите логин:</span>
 
@@ -27,7 +28,9 @@
           maxlength="10"
         />
       </label>
+    </div>
 
+    <div class="registr-block">
       <label class="registr-label">
         <span class="registr-text">Введите email:</span>
 
@@ -38,7 +41,9 @@
           minlength="5"
         />
       </label>
+    </div>
 
+    <div class="registr-block">
       <label class="registr-label">
         <span class="registr-text">Пароль:</span>
         <div class="registr-text registr-text-message">Не менее 3 символов и не более 10</div>
@@ -51,7 +56,9 @@
           maxlength="10"
         />
       </label>
+    </div>
 
+    <div class="registr-block">
       <label class="registr-label">
         <span class="registr-text">Подтвердите пароль:</span>
 
@@ -63,21 +70,25 @@
           maxlength="10"
         />
       </label>
+    </div>
 
+    <div class="registr-block">
       <label class="registr-label">
         <span class="registr-text">Дата рождения:</span>
 
         <input type="date" name="date" placeholder="date" />
       </label>
+    </div>
 
+    <div class="registr-block">
       <label class="registr-label">
         <span class="registr-text">Загрузите ваш аватар:</span>
 
         <input type="file" name="avatar" placeholder="date" />
       </label>
-
-      <button type="submit">Зарегестрироваться</button>
     </div>
+</div>
+      <button type="submit">Зарегестрироваться</button>
     </form>
   </body>
 </html>
