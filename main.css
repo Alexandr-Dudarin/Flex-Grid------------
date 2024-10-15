@@ -35,6 +35,17 @@ body {
   }
 
   span {
-    background-color: rgb(245, 130, 9);
-    color: rgb(18, 216, 226);
+    background-color: rgb(245, 131, 9);
+    color: rgb(0, 0, 0);
   }
+
+  .registr{
+    border: 3px solid var(--border-color);
+    margin: var(--registr-margin)
+  }
+
+  .registr-title{
+
+  }
+
+  
