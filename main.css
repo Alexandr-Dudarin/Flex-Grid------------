@@ -34,18 +34,27 @@ body {
     margin: 10px 0 10px 0;
   }
 
-  span {
-    background-color: rgb(245, 131, 9);
-    color: rgb(0, 0, 0);
-  }
-
-  .registr{
+  .registr {
     border: 3px solid var(--border-color);
     margin: var(--registr-margin)
   }
 
-  .registr-title{
-
+  .registr {
+    &-text {
+        background-color: green;
+        color:black;
+        &-message {
+            font-size: 8px;
+            color: red;
+        }
+    }
   }
 
-  
+  .registr-title,
+  .registr-text-message {
+    background-color: black;
+  }
+
+  .registr-title {
+    color: yellow;
+  }
